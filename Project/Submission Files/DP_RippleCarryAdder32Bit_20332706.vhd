@@ -25,70 +25,70 @@ architecture Behavioural of DP_RippleCarryAdder32Bit_20332706 is
 
     begin
 
-    BIT0: DP_FullAdder_20332706 Port Map (
+    BIT00: DP_FullAdder_20332706 Port Map (
       A => A(0),
       B => B(0), 
       C_IN => C_IN, 
       SUM => SUM(0), 
       C_OUT => C_OUT0
     );
-    BIT1: DP_FullAdder_20332706 Port Map (
+    BIT01: DP_FullAdder_20332706 Port Map (
       A => A(1),
       B => B(1),
       C_IN => C_OUT0,
       SUM => SUM(1),
       C_OUT => C_OUT1
     );
-    BIT2: DP_FullAdder_20332706 Port Map (
+    BIT02: DP_FullAdder_20332706 Port Map (
       A => A(2),
       B => B(2),
       C_IN => C_OUT1,
       SUM => SUM(2),
       C_OUT => C_OUT2
     );
-    BIT3: DP_FullAdder_20332706 Port Map (
+    BIT03: DP_FullAdder_20332706 Port Map (
       A => A(3),
       B => B(3),
       C_IN => C_OUT2,
       SUM => SUM(3),
       C_OUT => C_OUT3
     );
-    BIT4: DP_FullAdder_20332706 Port Map (
+    BIT04: DP_FullAdder_20332706 Port Map (
       A => A(4),
       B => B(4),
       C_IN => C_OUT3,
       SUM => SUM(4),
       C_OUT => C_OUT4
     );
-    BIT5: DP_FullAdder_20332706 Port Map (
+    BIT05: DP_FullAdder_20332706 Port Map (
       A => A(5),
       B => B(5),
       C_IN => C_OUT4,
       SUM => SUM(5),
       C_OUT => C_OUT5
     );
-    BIT6: DP_FullAdder_20332706 Port Map (
+    BIT06: DP_FullAdder_20332706 Port Map (
       A => A(6),
       B => B(6),
       C_IN => C_OUT5,
       SUM => SUM(6),
       C_OUT => C_OUT6
     );
-    BIT7: DP_FullAdder_20332706 Port Map (
+    BIT07: DP_FullAdder_20332706 Port Map (
       A => A(7),
       B => B(7),
       C_IN => C_OUT6,
       SUM => SUM(7),
       C_OUT => C_OUT7
     );
-    BIT8: DP_FullAdder_20332706 Port Map (
+    BIT08: DP_FullAdder_20332706 Port Map (
       A => A(8),
       B => B(8),
       C_IN => C_OUT7,
       SUM => SUM(8),
       C_OUT => C_OUT8
     );
-    BIT9: DP_FullAdder_20332706 Port Map (
+    BIT09: DP_FullAdder_20332706 Port Map (
       A => A(9),
       B => B(9),
       C_IN => C_OUT8,

@@ -1,2 +1,2 @@
-for i in range (0, 32):
-    print('BIT' , i , ': DP_SingleBit_LogicCircuit_20332706 Port Map (\n  A => A(', i, '),\n  B => B(', i, '),\n  S0 => S0,\n  S1 => S1,\n  G => G(', i, ')\n);\n', sep = '')
+for i in range (1, 32):
+    print('BIT' , i , ': DP_Mux3_1Bit_20332706 Port Map (\n  in0 => B(', i, '),\n  in1 => B(', i-1, '),\n  in2 => B(', i+1, '), \n  S1 => S1,\n  S2 => S2,\n  G => G(', i, ')\n);\n', sep = '')

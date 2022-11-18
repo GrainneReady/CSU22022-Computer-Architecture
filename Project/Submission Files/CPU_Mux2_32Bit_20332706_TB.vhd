@@ -27,9 +27,6 @@ architecture Behavioural of CPU_Mux2_32Bit_20332706_TB is
             Sel => Sel_TB,
             Z => Z_TB
         );
-
-        stim: process
-        begin
             Sel_TB <= '0';
             in0_TB <= "00000001001101100100000010100010";
             in1_TB <= "00000001001101100100000010100011";
@@ -40,6 +37,4 @@ architecture Behavioural of CPU_Mux2_32Bit_20332706_TB is
 
             Sel_TB <= '1';
             wait for 3ns;
-
-        end process;
     end Behavioural;
