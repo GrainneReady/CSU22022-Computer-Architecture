@@ -11,12 +11,7 @@ end CPU_Mux2_32Bit_20332706;
 
 architecture Behavioural of CPU_Mux2_32Bit_20332706 is
     begin
-        process(Sel)
-        begin
-            case Sel is
-                WHEN '0' => Z <= in0;
-                WHEN '1' => Z <= in1;
-                WHEN OTHERS => Z <= "00000000000000000000000000000000";
-            end case;
-        end process;
+            Z <= in0 when Sel = '0' else
+                 in1 when Sel = '1' else
+                 "00000000000000000000000000000000";
     end Behavioural;
