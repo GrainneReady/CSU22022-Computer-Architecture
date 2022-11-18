@@ -17,6 +17,13 @@ architecture Behavioural of DP_Shifter_20332706_TB is
     end component;
 
     begin
+        uut: DP_Shifter_20332706 PORT MAP (
+            B => B_TB,
+            S1 => S1_TB,
+            S2 => S2_TB,
+            G => G_TB,
+            C => C_TB
+        );
         B_TB <= "00000001001101100100000010100010"; -- Student Number 20332706
         stim: process
         begin
