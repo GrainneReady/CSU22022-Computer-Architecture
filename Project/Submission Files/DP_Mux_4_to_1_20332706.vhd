@@ -11,9 +11,9 @@ end DP_Mux_4_to_1_20332706;
 
 architecture Behavioural of DP_Mux_4_to_1_20332706 is
     begin
-        G <= in0 after 3ns when S1 = '0' and S0 = '0' else
-             in1 after 3ns when S1 = '0' and S0 = '1' else
-             in2 after 3ns when S1 = '1' and S0 = '0' else
-             in3 after 3ns when S1 = '1' and S0 = '1' else
-             '0' after 3ns;
+        G <= in0 when S1 = '0' and S0 = '0' else
+             in1 when S1 = '0' and S0 = '1' else
+             in2 when S1 = '1' and S0 = '0' else
+             in3 when S1 = '1' and S0 = '1' else
+             '0';
     end Behavioural;

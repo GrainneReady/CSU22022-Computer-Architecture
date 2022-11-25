@@ -51,8 +51,8 @@ architecture Behavioural of DP_FunctionalUnit_20332706 is
             C : out STD_LOGIC
         );
     end component;
-    signal in0, in1, ALU_Out_G, F : STD_LOGIC_VECTOR (31 downto 0) := (others => '0');
-    signal C_Shift, C_ALU, V, Z, C : STD_LOGIC := '0';
+    signal in0, in1, ALU_Out_G, Mux_F_Out : STD_LOGIC_VECTOR (31 downto 0) := (others => '0');
+    signal C_Shift, C_ALU : STD_LOGIC := '0';
     begin
         Shifter: DP_Shifter_20332706 PORT MAP (
             B => B,
@@ -70,7 +70,7 @@ architecture Behavioural of DP_FunctionalUnit_20332706 is
             S1 => FS(2),
             S2 => FS(3),
             C => C_ALU,
-            G => in1,
+            G => in0,
             V => V
         );
 
@@ -78,8 +78,10 @@ architecture Behavioural of DP_FunctionalUnit_20332706 is
             in0 => in0,
             in1 => in1,
             Sel => FS(4),
-            Z => F
+            Z => Mux_F_Out
         );
+        F <= Mux_F_Out;
+        N <= Mux_F_Out(31);
 
         C_Flag: DP_CFlagMux2_1Bit_20332706 PORT MAP (
             C_ALU => C_ALU,
@@ -89,8 +91,9 @@ architecture Behavioural of DP_FunctionalUnit_20332706 is
         );
 
         Z_Flag: DP_ZeroDetection_20332706 PORT MAP (
-            MuxF_to_F => F,
+            MuxF_to_F => Mux_F_Out,
             Z => Z
         );
+
 
     end Behavioural;

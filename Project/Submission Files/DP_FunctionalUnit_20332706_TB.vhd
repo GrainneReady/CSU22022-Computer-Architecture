@@ -48,7 +48,7 @@ architecture Behavioural of DP_FunctionUnit_20332706_TB is
         FS_TB <= "00101"; -- A + (1's comp B) + 1
         wait for 80ns;
 
-        FS_TB <= "01111"; -- 1's comp A
+        FS_TB <= "01110"; -- 1's comp A [aka NOT A]
         wait for 80ns;
 
         FS_TB <= "00100"; -- A + (1's comp B)
@@ -63,7 +63,7 @@ architecture Behavioural of DP_FunctionUnit_20332706_TB is
         FS_TB <= "11000"; -- slB
         wait for 80ns;
 
-        FS_TB <= "00011"; -- A + B
+        FS_TB <= "00010"; -- A + B
         wait for 80ns;
 
         FS_TB <= "00111"; -- A

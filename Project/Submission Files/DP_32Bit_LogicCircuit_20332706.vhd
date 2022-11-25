@@ -18,7 +18,6 @@ architecture Behavioural of DP_32Bit_LogicCircuit_20332706 is
     end component;
 
     begin
-    
     BIT00: DP_SingleBit_LogicCircuit_20332706 Port Map (
         A => A(0),
         B => B(0),
@@ -274,4 +273,5 @@ architecture Behavioural of DP_32Bit_LogicCircuit_20332706 is
       S1 => S1,
       G => G(31)
     );
+    
     end Behavioural;

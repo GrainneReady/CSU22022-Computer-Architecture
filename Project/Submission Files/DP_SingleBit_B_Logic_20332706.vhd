@@ -10,5 +10,5 @@ end DP_SingleBit_B_Logic_20332706;
 
 architecture Behavioural of DP_SingleBit_B_Logic_20332706 is
     begin
-        Y <= (S0 and B) or (S1 and not B) after 5ns;
+        Y <= (S0 and B) or (S1 and not B);
     end Behavioural;
