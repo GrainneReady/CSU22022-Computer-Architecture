@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="DP_Datapath_20332706_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="DP_Datapath_20332706_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,425.001 ns"></ZoomEndTime>
+      <Cursor1Time time="10,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="364"></NameColumnWidth>
+      <ValueColumnWidth column_width="179"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="94" />
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/SA" type="array">
+      <obj_property name="ElementShortName">SA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SA[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/DR" type="array">
+      <obj_property name="ElementShortName">DR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">DR[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/SB" type="array">
+      <obj_property name="ElementShortName">SB[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SB[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/TB" type="array">
+      <obj_property name="ElementShortName">TB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">TB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/TD" type="array">
+      <obj_property name="ElementShortName">TD[3:0]</obj_property>
+      <obj_property name="ObjectShortName">TD[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/TA" type="array">
+      <obj_property name="ElementShortName">TA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">TA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/Clock" type="logic">
+      <obj_property name="ElementShortName">Clock</obj_property>
+      <obj_property name="ObjectShortName">Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/RW" type="logic">
+      <obj_property name="ElementShortName">RW</obj_property>
+      <obj_property name="ObjectShortName">RW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/D" type="array">
+      <obj_property name="ElementShortName">D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q00" type="array">
+      <obj_property name="ElementShortName">register_Q00[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q00[31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q01" type="array">
+      <obj_property name="ElementShortName">register_Q01[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q01[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q02" type="array">
+      <obj_property name="ElementShortName">register_Q02[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q02[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q03" type="array">
+      <obj_property name="ElementShortName">register_Q03[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q03[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q04" type="array">
+      <obj_property name="ElementShortName">register_Q04[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q04[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q05" type="array">
+      <obj_property name="ElementShortName">register_Q05[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q05[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q06" type="array">
+      <obj_property name="ElementShortName">register_Q06[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q06[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q07" type="array">
+      <obj_property name="ElementShortName">register_Q07[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q07[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q08" type="array">
+      <obj_property name="ElementShortName">register_Q08[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q08[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q09" type="array">
+      <obj_property name="ElementShortName">register_Q09[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q09[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q10" type="array">
+      <obj_property name="ElementShortName">register_Q10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q10[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q11" type="array">
+      <obj_property name="ElementShortName">register_Q11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q11[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q12" type="array">
+      <obj_property name="ElementShortName">register_Q12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q12[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q13" type="array">
+      <obj_property name="ElementShortName">register_Q13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q13[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q14" type="array">
+      <obj_property name="ElementShortName">register_Q14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q14[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q15" type="array">
+      <obj_property name="ElementShortName">register_Q15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q15[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q16" type="array">
+      <obj_property name="ElementShortName">register_Q16[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q16[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q17" type="array">
+      <obj_property name="ElementShortName">register_Q17[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q17[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q18" type="array">
+      <obj_property name="ElementShortName">register_Q18[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q18[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q19" type="array">
+      <obj_property name="ElementShortName">register_Q19[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q19[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q20" type="array">
+      <obj_property name="ElementShortName">register_Q20[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q20[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q21" type="array">
+      <obj_property name="ElementShortName">register_Q21[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q21[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q22" type="array">
+      <obj_property name="ElementShortName">register_Q22[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q22[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q23" type="array">
+      <obj_property name="ElementShortName">register_Q23[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q23[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q24" type="array">
+      <obj_property name="ElementShortName">register_Q24[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q24[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q25" type="array">
+      <obj_property name="ElementShortName">register_Q25[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q25[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q26" type="array">
+      <obj_property name="ElementShortName">register_Q26[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q26[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q27" type="array">
+      <obj_property name="ElementShortName">register_Q27[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q27[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q28" type="array">
+      <obj_property name="ElementShortName">register_Q28[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q28[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q29" type="array">
+      <obj_property name="ElementShortName">register_Q29[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q29[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q30" type="array">
+      <obj_property name="ElementShortName">register_Q30[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q30[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/register_Q31" type="array">
+      <obj_property name="ElementShortName">register_Q31[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_Q31[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/load" type="array">
+      <obj_property name="ElementShortName">load[31:0]</obj_property>
+      <obj_property name="ObjectShortName">load[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q01" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q01[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q01[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q02" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q02[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q02[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q03" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q03[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q03[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q04" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q04[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q04[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q05" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q05[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q05[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q06" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q06[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q06[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q07" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q07[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q07[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q08" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q08[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q08[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q09" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q09[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q09[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q10" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q10[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q11" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q11[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q12" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q12[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q13" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q13[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q14" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q14[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempRegister_Q15" type="array">
+      <obj_property name="ElementShortName">tempRegister_Q15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tempRegister_Q15[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/mux32_A_Out" type="array">
+      <obj_property name="ElementShortName">mux32_A_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux32_A_Out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/mux32_B_Out" type="array">
+      <obj_property name="ElementShortName">mux32_B_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux32_B_Out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/tempLoad" type="array">
+      <obj_property name="ElementShortName">tempLoad[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tempLoad[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r00_load" type="logic">
+      <obj_property name="ElementShortName">r00_load</obj_property>
+      <obj_property name="ObjectShortName">r00_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r01_load" type="logic">
+      <obj_property name="ElementShortName">r01_load</obj_property>
+      <obj_property name="ObjectShortName">r01_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r02_load" type="logic">
+      <obj_property name="ElementShortName">r02_load</obj_property>
+      <obj_property name="ObjectShortName">r02_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r03_load" type="logic">
+      <obj_property name="ElementShortName">r03_load</obj_property>
+      <obj_property name="ObjectShortName">r03_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r04_load" type="logic">
+      <obj_property name="ElementShortName">r04_load</obj_property>
+      <obj_property name="ObjectShortName">r04_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r05_load" type="logic">
+      <obj_property name="ElementShortName">r05_load</obj_property>
+      <obj_property name="ObjectShortName">r05_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r06_load" type="logic">
+      <obj_property name="ElementShortName">r06_load</obj_property>
+      <obj_property name="ObjectShortName">r06_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r07_load" type="logic">
+      <obj_property name="ElementShortName">r07_load</obj_property>
+      <obj_property name="ObjectShortName">r07_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r08_load" type="logic">
+      <obj_property name="ElementShortName">r08_load</obj_property>
+      <obj_property name="ObjectShortName">r08_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r09_load" type="logic">
+      <obj_property name="ElementShortName">r09_load</obj_property>
+      <obj_property name="ObjectShortName">r09_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r10_load" type="logic">
+      <obj_property name="ElementShortName">r10_load</obj_property>
+      <obj_property name="ObjectShortName">r10_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r11_load" type="logic">
+      <obj_property name="ElementShortName">r11_load</obj_property>
+      <obj_property name="ObjectShortName">r11_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r12_load" type="logic">
+      <obj_property name="ElementShortName">r12_load</obj_property>
+      <obj_property name="ObjectShortName">r12_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r13_load" type="logic">
+      <obj_property name="ElementShortName">r13_load</obj_property>
+      <obj_property name="ObjectShortName">r13_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r14_load" type="logic">
+      <obj_property name="ElementShortName">r14_load</obj_property>
+      <obj_property name="ObjectShortName">r14_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r15_load" type="logic">
+      <obj_property name="ElementShortName">r15_load</obj_property>
+      <obj_property name="ObjectShortName">r15_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r16_load" type="logic">
+      <obj_property name="ElementShortName">r16_load</obj_property>
+      <obj_property name="ObjectShortName">r16_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r17_load" type="logic">
+      <obj_property name="ElementShortName">r17_load</obj_property>
+      <obj_property name="ObjectShortName">r17_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r18_load" type="logic">
+      <obj_property name="ElementShortName">r18_load</obj_property>
+      <obj_property name="ObjectShortName">r18_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r19_load" type="logic">
+      <obj_property name="ElementShortName">r19_load</obj_property>
+      <obj_property name="ObjectShortName">r19_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r20_load" type="logic">
+      <obj_property name="ElementShortName">r20_load</obj_property>
+      <obj_property name="ObjectShortName">r20_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r21_load" type="logic">
+      <obj_property name="ElementShortName">r21_load</obj_property>
+      <obj_property name="ObjectShortName">r21_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r22_load" type="logic">
+      <obj_property name="ElementShortName">r22_load</obj_property>
+      <obj_property name="ObjectShortName">r22_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r23_load" type="logic">
+      <obj_property name="ElementShortName">r23_load</obj_property>
+      <obj_property name="ObjectShortName">r23_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r24_load" type="logic">
+      <obj_property name="ElementShortName">r24_load</obj_property>
+      <obj_property name="ObjectShortName">r24_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r25_load" type="logic">
+      <obj_property name="ElementShortName">r25_load</obj_property>
+      <obj_property name="ObjectShortName">r25_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r26_load" type="logic">
+      <obj_property name="ElementShortName">r26_load</obj_property>
+      <obj_property name="ObjectShortName">r26_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r27_load" type="logic">
+      <obj_property name="ElementShortName">r27_load</obj_property>
+      <obj_property name="ObjectShortName">r27_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r28_load" type="logic">
+      <obj_property name="ElementShortName">r28_load</obj_property>
+      <obj_property name="ObjectShortName">r28_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r29_load" type="logic">
+      <obj_property name="ElementShortName">r29_load</obj_property>
+      <obj_property name="ObjectShortName">r29_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r30_load" type="logic">
+      <obj_property name="ElementShortName">r30_load</obj_property>
+      <obj_property name="ObjectShortName">r30_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Datapath/RegFile/r31_load" type="logic">
+      <obj_property name="ElementShortName">r31_load</obj_property>
+      <obj_property name="ObjectShortName">r31_load</obj_property>
+   </wvobject>
+</wave_config>

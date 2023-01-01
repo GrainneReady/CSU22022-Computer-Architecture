@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="DP_Datapath_20332706_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="DP_Datapath_20332706_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="3,995.001 ns"></ZoomEndTime>
+      <Cursor1Time time="10,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/DP_Datapath_20332706_TB/IR_IN_TB" type="array">
+      <obj_property name="ElementShortName">IR_IN_TB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_IN_TB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/DATA_IN_TB" type="array">
+      <obj_property name="ElementShortName">DATA_IN_TB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN_TB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/DATA_OUT_TB" type="array">
+      <obj_property name="ElementShortName">DATA_OUT_TB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_OUT_TB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/ADD_TB" type="array">
+      <obj_property name="ElementShortName">ADD_TB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADD_TB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/MB_TB" type="logic">
+      <obj_property name="ElementShortName">MB_TB</obj_property>
+      <obj_property name="ObjectShortName">MB_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/MD_TB" type="logic">
+      <obj_property name="ElementShortName">MD_TB</obj_property>
+      <obj_property name="ObjectShortName">MD_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Clock_TB" type="logic">
+      <obj_property name="ElementShortName">Clock_TB</obj_property>
+      <obj_property name="ObjectShortName">Clock_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/RW_TB" type="logic">
+      <obj_property name="ElementShortName">RW_TB</obj_property>
+      <obj_property name="ObjectShortName">RW_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/C_TB" type="logic">
+      <obj_property name="ElementShortName">C_TB</obj_property>
+      <obj_property name="ObjectShortName">C_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/N_TB" type="logic">
+      <obj_property name="ElementShortName">N_TB</obj_property>
+      <obj_property name="ObjectShortName">N_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/V_TB" type="logic">
+      <obj_property name="ElementShortName">V_TB</obj_property>
+      <obj_property name="ObjectShortName">V_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/Z_TB" type="logic">
+      <obj_property name="ElementShortName">Z_TB</obj_property>
+      <obj_property name="ObjectShortName">Z_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/FS_TB" type="array">
+      <obj_property name="ElementShortName">FS_TB[4:0]</obj_property>
+      <obj_property name="ObjectShortName">FS_TB[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/DR_TB" type="array">
+      <obj_property name="ElementShortName">DR_TB[4:0]</obj_property>
+      <obj_property name="ObjectShortName">DR_TB[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/SA_TB" type="array">
+      <obj_property name="ElementShortName">SA_TB[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SA_TB[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/SB_TB" type="array">
+      <obj_property name="ElementShortName">SB_TB[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SB_TB[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/TA_TB" type="array">
+      <obj_property name="ElementShortName">TA_TB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">TA_TB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/TB_TB" type="array">
+      <obj_property name="ElementShortName">TB_TB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_TB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/TD_TB" type="array">
+      <obj_property name="ElementShortName">TD_TB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">TD_TB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DP_Datapath_20332706_TB/PERIOD" type="other">
+      <obj_property name="ElementShortName">PERIOD</obj_property>
+      <obj_property name="ObjectShortName">PERIOD</obj_property>
+   </wvobject>
+</wave_config>
