@@ -1,6 +1,6 @@
 Vivado Simulator v2021.1.1
 Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 1eab3af0ecb84f5786027fad56045ed5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot CPU_CAR_20332706_TB_behav xil_defaultlib.CPU_CAR_20332706_TB -log elaborate.log 
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 1eab3af0ecb84f5786027fad56045ed5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot CPU_StatusRegister_20332706_TB_behav xil_defaultlib.CPU_StatusRegister_20332706_TB -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -13,6 +13,7 @@ Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
 Compiling package ieee.std_logic_arith
 Compiling package ieee.std_logic_unsigned
-Compiling architecture behavioural of entity xil_defaultlib.CPU_CAR_20332706 [cpu_car_20332706_default]
-Compiling architecture behavioural of entity xil_defaultlib.cpu_car_20332706_tb
-Built simulation snapshot CPU_CAR_20332706_TB_behav
+Compiling architecture behavioural of entity xil_defaultlib.CPU_DFlipFlop_20332706 [cpu_dflipflop_20332706_default]
+Compiling architecture behavioural of entity xil_defaultlib.CPU_StatusRegister_20332706 [cpu_statusregister_20332706_defa...]
+Compiling architecture behavioural of entity xil_defaultlib.cpu_statusregister_20332706_tb
+Built simulation snapshot CPU_StatusRegister_20332706_TB_behav

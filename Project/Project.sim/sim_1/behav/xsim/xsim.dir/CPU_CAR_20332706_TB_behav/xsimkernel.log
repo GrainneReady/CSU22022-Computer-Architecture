@@ -2,3 +2,6 @@ Running: xsim.dir/CPU_CAR_20332706_TB_behav/xsimk.exe -simmode gui -wdb CPU_CAR_
 Design successfully loaded
 Design Loading Memory Usage: 6812 KB (Peak: 6812 KB)
 Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 7388 KB (Peak: 7388 KB)
+Simulation CPU Usage: 31 ms
