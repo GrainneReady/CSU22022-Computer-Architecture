@@ -33,10 +33,10 @@ begin
 
         begin
             wait until Clock_TB'event and Clock_TB='1';
-                Load_TB <= '0' after PERIOD/4;
-                D_TB <= "00000001001101100100000010100010" after PERIOD/4;
+                Load_TB <= '0';
+                D_TB <= "00000001001101100100000010100010";
 
             wait until Clock_TB'event and Clock_TB='1';
-                Load_TB <= '1' after PERIOD/4;
+                Load_TB <= '1';
         end process;
     end Behavioral;

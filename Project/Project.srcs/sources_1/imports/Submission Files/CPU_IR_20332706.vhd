@@ -16,8 +16,16 @@ architecture Behavioural of CPU_IR_20332706 is
     begin
         -- |      Opcode      |  DR   |  SA   |  SB  |
         -- "00000000000000000"&"00000"&"00000"&"00000"
-        Opcode <= Instruction(31 downto 15) when IL = '1';
-        DR <= Instruction(14 downto 10) when IL = '1';
-        SA <= Instruction(9 downto 5) when IL = '1';
-        SB <= Instruction(4 downto 0) when IL = '1';
+
+        process(Clock)
+        begin
+        if Clock'event and Clock='1' then
+            if IL='1' then
+                Opcode <= Instruction(31 downto 15);
+                DR <= Instruction(14 downto 10);
+                SA <= Instruction(9 downto 5);
+                SB <= Instruction(4 downto 0);
+            end if;
+        end if;
+        end process;
     end Behavioural;

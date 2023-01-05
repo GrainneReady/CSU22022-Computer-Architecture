@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Wed Jan  4 23:34:34 2023
+# Process ID: 3028
+# Current directory: C:/Users/g/Desktop/CSU22022-Computer-Architecture/Project/Project.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/g/Desktop/CSU22022-Computer-Architecture/Project/Project.sim/sim_1/behav/xsim/xsim.dir/CPU_SMux_20332706_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/g/Desktop/CSU22022-Computer-Architecture/Project/Project.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/g/Desktop/CSU22022-Computer-Architecture/Project/Project.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/g/Desktop/CSU22022-Computer-Architecture/Project/Project.sim/sim_1/behav/xsim/xsim.dir/CPU_SMux_20332706_TB_behav/webtalk/xsim_webtalk.tcl -notrace

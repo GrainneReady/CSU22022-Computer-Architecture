@@ -9,10 +9,10 @@ end CPU_IR_20332706_TB;
 architecture Behavioural of CPU_IR_20332706_TB is
     component CPU_IR_20332706
         Port (
-            Clock, IL : STD_LOGIC;
-            Instruction : STD_LOGIC_VECTOR(31 downto 0);
-            DR, SA, SB : STD_LOGIC_VECTOR(4 downto 0);
-            Opcode : STD_LOGIC_VECTOR(16 downto 0)
+            Clock, IL : in STD_LOGIC; -- IL - Load Enable control signal
+            Instruction : in STD_LOGIC_VECTOR(31 downto 0);
+            DR, SA, SB : out STD_LOGIC_VECTOR(4 downto 0);
+            Opcode : out STD_LOGIC_VECTOR(16 downto 0)
         );
     end component;
     signal Clock_TB, IL_TB : STD_LOGIC := '0';
@@ -21,7 +21,6 @@ architecture Behavioural of CPU_IR_20332706_TB is
     signal Opcode_TB : STD_LOGIC_VECTOR(16 downto 0) := (others => '0');
     constant PERIOD : time := 20ns;
     begin
-        Clock_TB <= not Clock_TB after PERIOD/2;
         InstReg: CPU_IR_20332706
         Port Map (
             Clock => Clock_TB,
@@ -32,14 +31,17 @@ architecture Behavioural of CPU_IR_20332706_TB is
             SB => SB_TB,
             Opcode => Opcode_TB
         );
+        
+        Clock_TB <= not Clock_TB after PERIOD/2;
+        
         stim:process
         begin
-            wait until Clock_TB'event and Clock_TB = '1';
             IL_TB <= '1';
             --20332706
             -- |      Opcode      |  DR   |  SA   |  SB  |
             -- "00000000000000000"&"00000"&"00000"&"00000"
             --                         32          6   0     7
             Instruction_TB <= "00000000000100000001100000000111";
+            wait until Clock_TB'event and Clock_TB = '1';
         end process;
     end Behavioural;

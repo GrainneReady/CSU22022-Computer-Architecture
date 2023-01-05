@@ -1,7 +1,7 @@
 studentnum = 20332706
 
-for i in range (0, 128):
-    print('        Address_TB <= "0000000', f'{i:b}', '"; \n        wait for 20ns;\n', sep = '')
+for i in range (0, 8):
+    print('        MS <= "', f'{i:b}', '";\n        wait for 20ns;\n\n', sep='')
 
 
 
