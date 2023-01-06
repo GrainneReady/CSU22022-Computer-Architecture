@@ -34,11 +34,11 @@ architecture Behavioural of DP_Mux3_1Bit_20332706_TB is
 
         S2_TB <= '0';
         S1_TB <= '1';
-        wait for 15ns; -- G = slBi
+        wait for 15ns; -- G = srBi
 
         S2_TB <= '1';
         S1_TB <= '0';
-        wait for 15ns; -- G = srBi
+        wait for 15ns; -- G = slBi
 
         S2_TB <= '1';
         S1_TB <= '1';

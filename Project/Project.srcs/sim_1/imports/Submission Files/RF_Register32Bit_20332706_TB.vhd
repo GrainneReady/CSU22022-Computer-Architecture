@@ -32,11 +32,12 @@ begin
         stim: process
 
         begin
-            wait until Clock_TB'event and Clock_TB='1';
-                Load_TB <= '0';
-                D_TB <= "00000001001101100100000010100010";
+            Load_TB <= '0';
+            D_TB <= "00000001001101100100000010100010";
+            wait for 10ns;
 
-            wait until Clock_TB'event and Clock_TB='1';
-                Load_TB <= '1';
+            Load_TB <= '1';
+            wait for 10ns;
+            
         end process;
     end Behavioral;

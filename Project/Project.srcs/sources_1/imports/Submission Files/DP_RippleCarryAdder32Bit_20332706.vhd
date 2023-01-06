@@ -21,7 +21,7 @@ architecture Behavioural of DP_RippleCarryAdder32Bit_20332706 is
     signal C_OUT0, C_OUT1, C_OUT2, C_OUT3, C_OUT4, C_OUT5, C_OUT6, C_OUT7, C_OUT8, C_OUT9,
     C_OUT10, C_OUT11, C_OUT12, C_OUT13, C_OUT14, C_OUT15, C_OUT16, C_OUT17, C_OUT18, C_OUT19,
     C_OUT20, C_OUT21, C_OUT22, C_OUT23, C_OUT24, C_OUT25, C_OUT26, C_OUT27, C_OUT28, C_OUT29,
-    C_OUT30, C_OUT31 : std_logic;
+    C_OUT30, C_OUT31 : std_logic := '0';
 
     begin
 

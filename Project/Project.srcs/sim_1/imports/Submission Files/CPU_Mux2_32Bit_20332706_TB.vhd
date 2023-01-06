@@ -32,12 +32,9 @@ architecture Behavioural of CPU_Mux2_32Bit_20332706_TB is
             Sel_TB <= '0';
             in0_TB <= "00000001001101100100000010100010";
             in1_TB <= "00000001001101100100000010100011";
-            wait for 1ns;
-
-            Sel_TB <= '0';
-            wait for 3ns;
+            wait for 10ns;
 
             Sel_TB <= '1';
-            wait for 3ns;
+            wait for 10ns;
         end process;
     end Behavioural;

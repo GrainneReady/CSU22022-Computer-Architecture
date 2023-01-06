@@ -11,6 +11,6 @@ end DP_ZeroDetection_20332706;
 architecture Behavioural of DP_ZeroDetection_20332706 is
     begin
     
-        Z <= '1' when MuxF_to_F = "00000000000000000000000000000000" else
-             '0';
+        Z <= '1' after 3ns when MuxF_to_F = "00000000000000000000000000000000" else
+             '0' after 3ns;
     end Behavioural;

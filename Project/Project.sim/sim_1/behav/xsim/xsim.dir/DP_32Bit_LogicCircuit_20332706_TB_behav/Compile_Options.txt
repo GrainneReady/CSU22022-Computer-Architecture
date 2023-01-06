@@ -1,0 +1,1 @@
+-wto "1eab3af0ecb84f5786027fad56045ed5" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "DP_32Bit_LogicCircuit_20332706_TB_behav" "xil_defaultlib.DP_32Bit_LogicCircuit_20332706_TB" -log "elaborate.log" 

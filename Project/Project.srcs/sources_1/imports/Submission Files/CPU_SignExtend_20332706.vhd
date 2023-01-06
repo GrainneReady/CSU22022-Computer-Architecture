@@ -15,10 +15,10 @@ architecture Behavioural of CPU_SignExtend_20332706 is
         process(Input)
         begin
         if (Input(9)) = '1' then
-            Output(31 downto 10) <= "1111111111111111111111";
+            Output(31 downto 10) <= "1111111111111111111111" after 3ns;
         else
-            Output(31 downto 10) <= "0000000000000000000000";
+            Output(31 downto 10) <= "0000000000000000000000" after 3ns;
         end if;
-        Output(9 downto 0) <= Input;
+        Output(9 downto 0) <= Input after 3ns;
         end process;
     end Behavioural;

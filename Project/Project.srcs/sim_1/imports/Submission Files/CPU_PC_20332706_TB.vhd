@@ -37,20 +37,19 @@ architecture Behavioural of CPU_PC_20332706_TB is
         PI_TB <= '0';
         PL_TB <= '0';
         Displacement_TB <= x"00000006";
-        wait for 20ns;
+        wait for 40ns;
         
         Reset_TB <= '0';
         PI_TB <= '1';
-        wait for 20ns;
+        wait for 40ns;
         
         PI_TB <= '0';
         Displacement_TB <= x"00000006";
         PL_TB <= '1';
-        wait for 20ns;
+        wait for 40ns;
         
         PL_TB <= '0';
         Displacement_TB <= x"00000000";
-        
         end process;
 
 

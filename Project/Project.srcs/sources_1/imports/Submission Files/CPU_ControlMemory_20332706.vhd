@@ -151,25 +151,25 @@ architecture Behavioural of CPU_ControlMemory_20332706 is
     );
     signal content_at_address : STD_LOGIC_VECTOR(50 downto 0);
     begin
-        content_at_address <= ROM(to_integer(unsigned(Address(6 downto 0))));
-        NA <= content_at_address(50 downto 34); -- 34-50
-        MS <= content_at_address(33 downto 31); -- 31-33
-        MC <= content_at_address(30);           -- 30
-        IL <= content_at_address(29);           -- 29
-        PI <= content_at_address(28);           -- 28
-        PL <= content_at_address(27);           -- 27
-        TD <= content_at_address(26 downto 23); -- 23-26
-        TA <= content_at_address(22 downto 19); -- 19-22
-        TB <= content_at_address(18 downto 15); -- 15-18
-        MB <= content_at_address(14);           -- 14
-        FS <= content_at_address(13 downto 9);  -- 09-13
-        MD <= content_at_address(8);            -- 08
-        RW <= content_at_address(7);            -- 07
-        MM <= content_at_address(6);            -- 06
-        MW <= content_at_address(5);            -- 05
-        RV <= content_at_address(4);            -- 04
-        RC <= content_at_address(3);            -- 03
-        RN <= content_at_address(2);            -- 02
-        RZ <= content_at_address(1);            -- 01
-        FL <= content_at_address(0);            -- 00
+        content_at_address <= ROM(to_integer(unsigned(Address(6 downto 0)))) after 3ns;
+        NA <= content_at_address(50 downto 34) after 3ns; -- 34-50
+        MS <= content_at_address(33 downto 31) after 3ns; -- 31-33
+        MC <= content_at_address(30) after 3ns;           -- 30
+        IL <= content_at_address(29) after 3ns;           -- 29
+        PI <= content_at_address(28) after 3ns;           -- 28
+        PL <= content_at_address(27) after 3ns;           -- 27
+        TD <= content_at_address(26 downto 23) after 3ns; -- 23-26
+        TA <= content_at_address(22 downto 19) after 3ns; -- 19-22
+        TB <= content_at_address(18 downto 15) after 3ns; -- 15-18
+        MB <= content_at_address(14) after 3ns;           -- 14
+        FS <= content_at_address(13 downto 9) after 3ns;  -- 09-13
+        MD <= content_at_address(8) after 3ns;            -- 08
+        RW <= content_at_address(7) after 3ns;            -- 07
+        MM <= content_at_address(6) after 3ns;            -- 06
+        MW <= content_at_address(5) after 3ns;            -- 05
+        RV <= content_at_address(4) after 3ns;            -- 04
+        RC <= content_at_address(3) after 3ns;            -- 03
+        RN <= content_at_address(2) after 3ns;            -- 02
+        RZ <= content_at_address(1) after 3ns;            -- 01
+        FL <= content_at_address(0) after 3ns;            -- 00
     end Behavioural;

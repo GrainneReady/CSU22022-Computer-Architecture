@@ -29,19 +29,19 @@ architecture Behavioural of DP_SingleBit_LogicCircuit_20332706_TB is
             
             S1_TB <= '0'; --in0
             S0_TB <= '0';
-            wait for 6ns;
+            wait for 20ns;
             
             S1_TB <= '0'; --in1
             S0_TB <= '1';
-            wait for 6ns;
+            wait for 20ns;
 
             S1_TB <= '1'; --in2
             S0_TB <= '0';
-            wait for 6ns;
+            wait for 20ns;
 
             S1_TB <= '1'; --in3
             S0_TB <= '1';
-            wait for 6ns;
+            wait for 20ns;
 
         end process;
     end Behavioural;

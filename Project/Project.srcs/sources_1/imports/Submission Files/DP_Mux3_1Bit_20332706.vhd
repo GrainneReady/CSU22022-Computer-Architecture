@@ -11,7 +11,7 @@ end DP_Mux3_1Bit_20332706;
 
 architecture Behavioural of DP_Mux3_1Bit_20332706 is
     begin
-        Gi <= Bi when S2 = '0' and S1 = '0' else
-              srBi when S2 = '1' and S1 = '0' else
-              slBi when S2 = '0' and S1 = '1';
+        Gi <= Bi after 3ns when S2 = '0' and S1 = '0' else
+              srBi after 3ns when S2 = '0' and S1 = '1' else
+              slBi after 3ns when S2 = '1' and S1 = '0';
     end Behavioural;

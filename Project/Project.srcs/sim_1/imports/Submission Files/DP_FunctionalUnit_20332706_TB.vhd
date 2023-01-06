@@ -34,49 +34,49 @@ architecture Behavioural of DP_FunctionUnit_20332706_TB is
         B_TB <= "00000001001101100100000010101000"; -- Student number plus last digit (20332712)
 
         FS_TB <= "01000"; -- A AND B
-        wait for 80ns;
+        wait for 250ns;
 
         FS_TB <= "01010"; -- A OR B
-        wait for 80ns;
+        wait for 250ns;
 
         FS_TB <= "00110"; -- A - 1
-        wait for 80ns;
+        wait for 250ns;
 
         FS_TB <= "10100"; -- srB
-        wait for 80ns;
+        wait for 250ns;
 
         FS_TB <= "00101"; -- A + (1's comp B) + 1
-        wait for 80ns;
+        wait for 250ns;
 
         FS_TB <= "01110"; -- 1's comp A [aka NOT A]
-        wait for 80ns;
+        wait for 250ns;
 
         FS_TB <= "00100"; -- A + (1's comp B)
-        wait for 80ns;
+        wait for 250ns;
 
         FS_TB <= "10000"; -- B
-        wait for 80ns;
+        wait for 250ns;
 
         FS_TB <= "00011"; -- A + B + 1
-        wait for 80ns;
+        wait for 250ns;
 
         FS_TB <= "11000"; -- slB
-        wait for 80ns;
+        wait for 250ns;
 
         FS_TB <= "00010"; -- A + B
-        wait for 80ns;
+        wait for 250ns;
 
         FS_TB <= "00111"; -- A
-        wait for 80ns;
+        wait for 250ns;
 
         FS_TB <= "00000"; -- A
-        wait for 80ns;
+        wait for 250ns;
 
         FS_TB <= "00001"; -- A + 1
-        wait for 80ns;
+        wait for 250ns;
 
         FS_TB <= "01100"; -- A XOR B
-        wait for 80ns;
+        wait for 250ns;
         
         end process;
     end Behavioural;

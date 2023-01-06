@@ -36,10 +36,10 @@ architecture Behavioural of CPU_RAM_20332706 is
         begin
             if Clock'event and Clock='1' then
                 if WriteEnable = '1' then
-                    RAM(to_integer(unsigned(Address(6 downto 0)))) <= DataIn;
+                    RAM(to_integer(unsigned(Address(6 downto 0)))) <= DataIn after 3ns;
                 end if;
             end if;
         end process;
 
-        DataOut <= RAM(to_integer(unsigned(Address(6 downto 0))));
+        DataOut <= RAM(to_integer(unsigned(Address(6 downto 0)))) after 3ns;
 end Behavioural;

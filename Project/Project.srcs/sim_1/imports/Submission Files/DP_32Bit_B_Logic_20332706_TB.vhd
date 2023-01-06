@@ -33,21 +33,25 @@ architecture Behavioural of DP_32Bit_B_Logic_20332706_TB is
         begin
         B_TB <= "00000001001101100100000010100010"; -- 20332706
 
-        wait for 10ns; -- Test A: Output 0's
+        -- Test A: Output 0's
         S1_TB <= '0';
         S0_TB <= '0';
-        
-        wait for 10ns; -- Test B: Output student number (20332706)
+        wait for 50ns;
+
+        -- Test B: Output student number (20332706)
         S1_TB <= '0';
         S0_TB <= '1';
-        
-        wait for 10ns; -- Test C: Output negated student number (-20332706)
+        wait for 50ns;
+
+        -- Test C: Output negated student number (-20332706)
         S1_TB <= '1';
         S0_TB <= '0';
-        
-        wait for 10ns; -- Test D: Output all 1's
+        wait for 50ns;
+
+        -- Test D: Output all 1's
         S1_TB <= '1';
         S0_TB <= '1';
-        wait for 10ns;
+        wait for 50ns;
+
         end process;
     end Behavioural;

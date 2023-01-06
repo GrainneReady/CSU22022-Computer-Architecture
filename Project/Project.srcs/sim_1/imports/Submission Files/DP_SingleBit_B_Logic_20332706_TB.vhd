@@ -34,42 +34,42 @@ architecture Behavioural of DP_SingleBit_B_Logic_20332706_TB is
         B_TB <= '0';
         S1_TB <= '0';
         S0_TB <= '0';
-        wait for 10ns;
+        wait for 20ns;
 
         B_TB <= '0';
         S1_TB <= '0';
         S0_TB <= '1';
-        wait for 10ns;
+        wait for 20ns;
         
         B_TB <= '0';
         S1_TB <= '1';
         S0_TB <= '0';
-        wait for 10ns;
+        wait for 20ns;
         
         B_TB <= '0';
         S1_TB <= '1';
         S0_TB <= '1';
-        wait for 10ns;
+        wait for 20ns;
         
         B_TB <= '1';
         S1_TB <= '0';
         S0_TB <= '0';
-        wait for 10ns;
+        wait for 20ns;
         
         B_TB <= '1';
         S1_TB <= '0';
         S0_TB <= '1';
-        wait for 10ns;
+        wait for 20ns;
         
         B_TB <= '1';
         S1_TB <= '1';
         S0_TB <= '0';
-        wait for 10ns;
+        wait for 20ns;
         
         B_TB <= '1';
         S1_TB <= '1';
         S0_TB <= '1';
-        wait for 10ns;
+        wait for 20ns;
     end process;
 
     end Behavioural;

@@ -21,10 +21,10 @@ architecture Behavioural of CPU_IR_20332706 is
         begin
         if Clock'event and Clock='1' then
             if IL='1' then
-                Opcode <= Instruction(31 downto 15);
-                DR <= Instruction(14 downto 10);
-                SA <= Instruction(9 downto 5);
-                SB <= Instruction(4 downto 0);
+                Opcode <= Instruction(31 downto 15) after 3ns;
+                DR <= Instruction(14 downto 10) after 3ns;
+                SA <= Instruction(9 downto 5) after 3ns;
+                SB <= Instruction(4 downto 0) after 3ns;
             end if;
         end if;
         end process;

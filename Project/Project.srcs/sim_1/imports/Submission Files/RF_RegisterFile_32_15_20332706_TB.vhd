@@ -44,7 +44,6 @@ begin
 
         begin
 
-            wait for delay;
             TD_TB <= "0000";
             TB_TB <= "0000";
             TA_TB <= "0000";
@@ -338,6 +337,7 @@ begin
             wait for delay;
             TA_TB <= "1111";
             TB_TB <= "1111";
+            wait for delay;
     
     end process;
 end Behavioral;

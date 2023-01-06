@@ -11,7 +11,7 @@ end CPU_Mux2_32Bit_20332706;
 
 architecture Behavioural of CPU_Mux2_32Bit_20332706 is
     begin
-            Z <= in0 when Sel = '0' else
-                 in1 when Sel = '1' else
-                 "00000000000000000000000000000000";
+            Z <= in0 after 5ns when Sel = '0' else
+                 in1 after 5ns when Sel = '1' else
+                 "00000000000000000000000000000000" after 5ns;
     end Behavioural;

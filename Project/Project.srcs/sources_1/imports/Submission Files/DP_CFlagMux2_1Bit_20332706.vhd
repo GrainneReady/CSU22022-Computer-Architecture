@@ -10,7 +10,6 @@ end DP_CFlagMux2_1Bit_20332706;
 
 architecture Behavioural of DP_CFlagMux2_1Bit_20332706 is
     begin
-        C <= C_ALU when FS4 = '0' else
-             C_Shift when FS4 = '1' else
-             'U';
+        C <= C_ALU after 3ns when FS4 = '0' else
+             C_Shift after 3ns when FS4 = '1';
     end Behavioural;

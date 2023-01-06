@@ -32,21 +32,21 @@ architecture Behavioural of DP_32Bit_LogicCircuit_20332706_TB is
         begin
         A_TB <= x"013640A2"; -- Student number (20332706)
         B_TB <= x"05A466C3"; -- 94660291 in decimal
-        -- Delay of 96 ns calculated by each single logic circuit bit having a delay of 3ns, 3ns x 32 = 96ns
+        
         S1_TB <= '0';
         S0_TB <= '0';
-        wait for 96ns;
+        wait for 100ns;
 
         S1_TB <= '0';
         S0_TB <= '1';
-        wait for 96ns;
+        wait for 100ns;
 
         S1_TB <= '1';
         S0_TB <= '0';
-        wait for 96ns;
+        wait for 100ns;
         
         S1_TB <= '1';
         S0_TB <= '1';
-        wait for 96ns;
+        wait for 100ns;
         end process;
     end Behavioural;

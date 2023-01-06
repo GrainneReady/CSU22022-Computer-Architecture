@@ -59,52 +59,52 @@ begin
         in14_TB <= "00000001001101100100000010110000";
         in15_TB <= "00000001001101100100000010110001";
 
-        wait for delay;
         S_TB <= "0000";
-
         wait for delay;
+        
         S_TB <= "0001";
-
         wait for delay;
+        
         S_TB <= "0010";
-
         wait for delay;
+        
         S_TB <= "0011";
-
         wait for delay;
+        
         S_TB <= "0100";
-
         wait for delay;
+        
         S_TB <= "0101";
-
         wait for delay;
+        
         S_TB <= "0110";
-
         wait for delay;
+        
         S_TB <= "0111";
-
         wait for delay;
+        
         S_TB <= "1000";
-
         wait for delay;
+        
         S_TB <= "1001";
-
         wait for delay;
+        
         S_TB <= "1010";
-
         wait for delay;
+        
         S_TB <= "1011";
-
         wait for delay;
+        
         S_TB <= "1100";
-
         wait for delay;
+        
         S_TB <= "1101";
-
         wait for delay;
+        
         S_TB <= "1110";
-
         wait for delay;
+        
         S_TB <= "1111";
+        wait for delay;
     end process;
 end Behavioral;

@@ -27,46 +27,45 @@ begin
         stim: process
         begin
 
-        wait for 5ns;
 
         C_IN_TB <= '0';
         B_TB <= '0';
         A_TB <= '0';
-        wait for 5ns;
+        wait for 20ns;
 
         C_IN_TB <= '0';
         B_TB <= '0';
         A_TB <= '1';
-        wait for 5ns;
+        wait for 20ns;
 
         C_IN_TB <= '0';
         B_TB <= '1';
         A_TB <= '0';
-        wait for 5ns;
+        wait for 20ns;
 
         C_IN_TB <= '0';
         B_TB <= '1';
         A_TB <= '1';
-        wait for 5ns;
+        wait for 20ns;
 
         C_IN_TB <= '1';
         B_TB <= '0';
         A_TB <= '0';
-        wait for 5ns;
+        wait for 20ns;
 
         C_IN_TB <= '1';
         B_TB <= '0';
         A_TB <= '1';
-        wait for 5ns;
+        wait for 20ns;
 
         C_IN_TB <= '1';
         B_TB <= '1';
         A_TB <= '0';
-        wait for 5ns;
+        wait for 20ns;
 
         C_IN_TB <= '1';
         B_TB <= '1';
         A_TB <= '1';
-        wait for 5ns;
+        wait for 20ns;
     end process;
 end Behavioral;

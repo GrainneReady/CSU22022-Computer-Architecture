@@ -37,80 +37,80 @@ architecture Behavioural of DP_ArithmeticLogicUnit_20332706_TB is
 
         stim: process
         begin
-            A_TB <= "00000001001101100100000010100010"; -- Student Number (20332706)
-            B_TB <= "00000000000000000000000000001111"; -- (19962002)
+            A_TB <= "10000001001101100100000010100010";
+            B_TB <= "11111000000000000000000000011110";
             
             S2_TB <= '0';
             S1_TB <= '0';
             S0_TB <= '0';
             C_IN_TB <= '0';
-            wait for 50ns; -- Output A
+            wait for 300ns; -- Output A
 
             S2_TB <= '0';
             S1_TB <= '0';
             S0_TB <= '0';
             C_IN_TB <= '1';
-            wait for 50ns; -- Output A + 1
+            wait for 300ns; -- Output A + 1
 
             S2_TB <= '0';
             S1_TB <= '0';
             S0_TB <= '1';
             C_IN_TB <= '0';
-            wait for 50ns; -- Output A + B
+            wait for 300ns; -- Output A + B
 
             S2_TB <= '0';
             S1_TB <= '0';
             S0_TB <= '1';
             C_IN_TB <= '1';
-            wait for 50ns; -- Output A + B + 1
+            wait for 300ns; -- Output A + B + 1
             
             S2_TB <= '0';
             S1_TB <= '1';
             S0_TB <= '0';
             C_IN_TB <= '0';
-            wait for 50ns; -- Output A + 1's compliment(B) [1's Compliment: -16]
+            wait for 300ns; -- Output A + 1's compliment(B) [1's Compliment: -16]
 
             S2_TB <= '0';
             S1_TB <= '1';
             S0_TB <= '0';
             C_IN_TB <= '1';
-            wait for 50ns; -- Output A + 1's complement(B) + 1
+            wait for 300ns; -- Output A + 1's complement(B) + 1
 
             S2_TB <= '0';
             S1_TB <= '1';
             S0_TB <= '1';
             C_IN_TB <= '0';
-            wait for 50ns; -- Output A - 1
+            wait for 300ns; -- Output A - 1
 
             S2_TB <= '0';
             S1_TB <= '1';
             S0_TB <= '1';
             C_IN_TB <= '1';
-            wait for 50ns; -- Output A
+            wait for 300ns; -- Output A
 
             S2_TB <= '1';
             S1_TB <= '0';
             S0_TB <= '0';
             C_IN_TB <= '0';
-            wait for 50ns; -- Output A AND B
+            wait for 300ns; -- Output A AND B
 
             S2_TB <= '1';
             S1_TB <= '0';
             S0_TB <= '1';
             C_IN_TB <= '0';
-            wait for 50ns; -- Output A OR B
+            wait for 300ns; -- Output A OR B
 
             S2_TB <= '1';
             S1_TB <= '1';
             S0_TB <= '0';
             C_IN_TB <= '0';
-            wait for 50ns; -- Output A XOR B
+            wait for 300ns; -- Output A XOR B
 
             S2_TB <= '1';
             S1_TB <= '1';
             S0_TB <= '1';
             C_IN_TB <= '0';
-            wait for 50ns; -- Output NOT A
+            wait for 300ns; -- Output NOT A
 
         end process;
     end Behavioural;

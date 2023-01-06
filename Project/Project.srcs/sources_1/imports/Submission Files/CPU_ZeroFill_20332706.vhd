@@ -11,9 +11,7 @@ entity CPU_ZeroFill_20332706 is
 end entity CPU_ZeroFill_20332706;
 
 architecture Behavioural of CPU_ZeroFill_20332706 is
-    signal wire : STD_LOGIC_VECTOR(31 downto 0) := (others => '0');
     begin
-        wire(4 downto 0) <= SB;
-        wire(31 downto 5) <= "000000000000000000000000000";
-        muxB <= wire;
+        MuxB(4 downto 0) <= SB after 3ns;
+        MuxB(31 downto 5) <= "000000000000000000000000000" after 3ns;
     end Behavioural;

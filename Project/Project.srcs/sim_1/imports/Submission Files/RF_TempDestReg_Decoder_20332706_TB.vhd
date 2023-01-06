@@ -28,7 +28,6 @@ begin
 
     stim: process
     begin
-        wait for delay;
         A <= "0000";
 
         wait for delay;
@@ -75,6 +74,7 @@ begin
 
         wait for delay;
         A <= "1111";
+        wait for delay;
     end process;
 
 end Behavioral;

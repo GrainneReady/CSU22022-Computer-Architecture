@@ -14,10 +14,10 @@ architecture Behavioral of RF_Mux3_32Bit_20332706 is
         process(A, in00, in01, in02)
                 begin
                     case A is
-                        WHEN "00" => Z <= in00;
-                        WHEN "01" => Z <= in01;
-                        WHEN "10" => Z <= in02;
-                        WHEN OTHERS  => Z <= "00000000000000000000000000000000";
+                        WHEN "00" => Z <= in00 after 3ns;
+                        WHEN "01" => Z <= in01 after 3ns;
+                        WHEN "10" => Z <= in02 after 3ns;
+                        WHEN OTHERS  => Z <= "00000000000000000000000000000000" after 3ns;
                     end case;
         end process;
     end Behavioral;
